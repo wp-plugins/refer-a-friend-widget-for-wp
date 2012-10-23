@@ -131,18 +131,12 @@ if ( !function_exists('wp_ib') )
   {
     function wp_ib( $content )
     {
-      if( !is_feed() && !is_page() && !is_archive() && !is_search() && !is_404() )
-	{
-	  return $content . wp_ib_format('none');
-	}
-      else
-	{
-	  return $content;
-	}
+      echo wp_ib_format('none');
     }
   }
 
-add_filter('the_content', 'wp_ib');
+//add_filter('the_content', 'wp_ib');
+add_action('wp_footer', 'wp_ib', 100);
 add_action('admin_menu', 'wp_ib_settings');
 add_action('init', 'wp_ib_update');
 ?>
