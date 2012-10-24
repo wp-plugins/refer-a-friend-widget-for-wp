@@ -2,6 +2,7 @@
 /*
   Plugin Name: Wordpress InviteBox Plugin
   Description: Add InviteBox-powered referral program to your WordPress blog
+  Version: 1.1.0
   Plugin URI: http://invitebox.com/
 */
 
@@ -81,7 +82,7 @@ if( !function_exists('wp_ib_update') )
 	  $ch = curl_init(); 
 	  curl_setopt ($ch, CURLOPT_URL, "http://invitebox.com/invitation-camp/wordpress/?skey=" . $skey);
 	  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	  curl_setopt ($ch, CURLOPT_GET, true);
+	  curl_setopt ($ch, CURLOPT_HTTPGET, true);
 			
 	  $result = curl_exec($ch);
 	  $response = json_decode($result);

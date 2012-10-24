@@ -3,7 +3,7 @@ Contributors: invitebox
 Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion
 Requires at least: 3
 Tested up to: 3.3.2
-Stable tag: 1.0
+Stable tag: 1.1.0
 
 Add InviteBox-powered referral program to your WordPress blog and promote your posts virally.
 
@@ -41,6 +41,10 @@ and reward your readers for sharing your blog posts with their friends. Lear mor
 = 1.0 =
 * First version
 
+= 1.1.0 =
+* Changed the plugin behavior from inserting the a button into the end of each post into inserting referral program "badge" (tab) into every page.
+* Removed debug error reporting
+* Fixed incorrect cURL option leading to error on plugin activation
 
 == Screenshots ==
 
