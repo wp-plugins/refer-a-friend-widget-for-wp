@@ -49,4 +49,4 @@ and reward your readers for sharing your blog posts with their friends. Lear mor
 == Screenshots ==
 
 1. InviteBox widget
-2. Widget settings
+2. Analytics
