@@ -1,6 +1,6 @@
 === WordPress InviteBox Plugin for refer-a-friend promotion ===
 Contributors: invitebox
-Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion
+Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion, social, widget, referral, contest
 Requires at least: 3
 Tested up to: 3.3.2
 Stable tag: 1.1.0
