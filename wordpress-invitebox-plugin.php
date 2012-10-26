@@ -2,11 +2,14 @@
 /*
   Plugin Name: Wordpress InviteBox Plugin
   Description: Add InviteBox-powered referral program to your WordPress blog
+  Version: 1.1.1
   Plugin URI: http://invitebox.com/
 */
 
+/*
 ini_set('display_errors',1);
 error_reporting(E_ALL);
+*/
 
 if( !function_exists('wp_ib_settings') )
   {
@@ -79,7 +82,7 @@ if( !function_exists('wp_ib_update') )
 	  $ch = curl_init(); 
 	  curl_setopt ($ch, CURLOPT_URL, "http://invitebox.com/invitation-camp/wordpress/?skey=" . $skey);
 	  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	  curl_setopt ($ch, CURLOPT_GET, true);
+	  curl_setopt ($ch, CURLOPT_HTTPGET, true);
 			
 	  $result = curl_exec($ch);
 	  $response = json_decode($result);
@@ -129,18 +132,12 @@ if ( !function_exists('wp_ib') )
   {
     function wp_ib( $content )
     {
-      if( !is_feed() && !is_page() && !is_archive() && !is_search() && !is_404() )
-	{
-	  return $content . wp_ib_format('none');
-	}
-      else
-	{
-	  return $content;
-	}
+      echo wp_ib_format('none');
     }
   }
 
-add_filter('the_content', 'wp_ib');
+//add_filter('the_content', 'wp_ib');
+add_action('wp_footer', 'wp_ib', 100);
 add_action('admin_menu', 'wp_ib_settings');
 add_action('init', 'wp_ib_update');
 ?>
