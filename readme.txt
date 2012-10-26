@@ -1,17 +1,17 @@
 === WordPress InviteBox Plugin for refer-a-friend promotion ===
 Contributors: invitebox
-Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion, social, widget, referral, contest
+Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion, social, widget, referral, contest, promotion
 Requires at least: 3
 Tested up to: 3.3.2
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 
 Add InviteBox-powered referral program to your WordPress blog and promote your posts virally.
 
 == Description ==
 
-With this <a href="http://invitebox.com/">refer a friend</a> plugin for WP you could add InviteBox-powered referral program to your WordPress blog.
+Reach new customers today with a social referral program. Design and launch <a href="http://invitebox.com/">refer a friend</a> promotions on your WordPress website or blog in minutes.
 
-You could setup one of the following types of referral campaigns:
+You can set up one of the following types of referral campaigns:
 
 1. Referral program with instant rewards.
 
@@ -19,7 +19,7 @@ You could setup one of the following types of referral campaigns:
 
 3. Referral program with goal-based rewards.
 
-and reward your readers for sharing your blog posts with their friends. Lear more about InviteBox-powered <a href="http://invitebox.com/how-it-works/">referral programs</a>.
+and reward your readers for sharing your site with their friends. Lear more about InviteBox-powered <a href="http://invitebox.com/how-it-works/">referral programs</a>.
 
 == Installation ==
 
@@ -27,7 +27,7 @@ and reward your readers for sharing your blog posts with their friends. Lear mor
 
 2. Create your referral campaign, set the rules and setup your InviteBox widget.
 
-3. Copy your widget 'Secret key' from the advanced widget setting section on the itegration page.
+3. Copy your widget 'Secret key' from the 'API settings' section on the itegration page.
 
 4. Unzip and Upload file wordpress-invitebox-plugin.php to the /wp-content/plugins/ directory
 
@@ -45,6 +45,9 @@ and reward your readers for sharing your blog posts with their friends. Lear mor
 * Changed the plugin behavior from inserting the a button into the end of each post into inserting referral program "badge" (tab) into every page.
 * Removed debug error reporting
 * Fixed incorrect cURL option leading to error on plugin activation
+
+= 1.1.1 =
+* Updated description, installation instructions and screenshots to match the current version
 
 == Screenshots ==
 
