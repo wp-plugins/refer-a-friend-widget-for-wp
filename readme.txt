@@ -5,7 +5,7 @@ Requires at least: 3
 Tested up to: 3.3.2
 Stable tag: 1.1.1
 
-Add InviteBox-powered referral program to your WordPress blog and promote your posts virally.
+Add InviteBox-powered referral program to your WordPress site and promote it virally.
 
 == Description ==
 
@@ -19,7 +19,7 @@ You can set up one of the following types of referral campaigns:
 
 3. Referral program with goal-based rewards.
 
-and reward your readers for sharing your site with their friends. Lear more about InviteBox-powered <a href="http://invitebox.com/how-it-works/">referral programs</a>.
+and reward your customers for sharing your site with their friends. Learn more about InviteBox-powered <a href="http://invitebox.com/how-it-works/">referral programs</a>.
 
 == Installation ==
 
