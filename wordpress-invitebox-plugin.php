@@ -2,7 +2,7 @@
 /*
   Plugin Name: Wordpress InviteBox Plugin
   Description: Add InviteBox-powered referral program to your WordPress blog
-  Version: 1.1.1
+  Version: 1.1.2
   Plugin URI: http://invitebox.com/
 */
 
@@ -117,11 +117,6 @@ if( !function_exists('wp_ib_format') )
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ib, s);
 })();
-</script>";
-      $output .= "<script type='text/javascript'>
-var __ibq = __ibq || [];
-__ibq.push(['bind', 'preInit',
-function(){invitebox.setMessage('$post_title $post_url');}]);
 </script>";
 
       return $output;
