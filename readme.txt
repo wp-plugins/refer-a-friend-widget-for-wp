@@ -58,3 +58,4 @@ and reward your customers for sharing your site with their friends. Learn more a
 
 1. InviteBox widget
 2. Analytics
+
