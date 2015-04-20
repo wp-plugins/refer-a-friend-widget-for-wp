@@ -2,8 +2,8 @@
 Contributors: invitebox
 Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion, social, widget, referral, contest, promotion
 Requires at least: 3
-Tested up to: 4.1.1
-Stable tag: 1.1.2
+Tested up to: 4.2
+Stable tag: 1.1.3
 
 Add InviteBox-powered referral program to your WordPress site and promote it virally.
 
