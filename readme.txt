@@ -2,8 +2,8 @@
 Contributors: invitebox
 Tags: refer-a-friend, tell-a-friend widget, referral program, word of mouth, viral promotion, social, widget, referral, contest, promotion
 Requires at least: 3
-Tested up to: 4.2
-Stable tag: 1.1.3
+Tested up to: 4.3
+Stable tag: 1.2.1
 
 Add InviteBox-powered referral program to your WordPress site and promote it virally.
 
@@ -53,6 +53,10 @@ and reward your customers for sharing your site with their friends. Learn more a
 * Removed the function that set page title as default post set
 * Updated description
 
+= 1.2.1 =
+* There was added an ability to insert code directly through WYSIWYG editor.
+* There was added a support for the widget of type "embed" for per-page insertion.
+* In plugin settings you can chose how to insert a widget.
 
 == Screenshots ==
 
