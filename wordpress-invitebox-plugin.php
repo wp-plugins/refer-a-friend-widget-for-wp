@@ -2,7 +2,7 @@
 /*
   Plugin Name: Wordpress InviteBox Plugin
   Description: Add InviteBox-powered referral program to your WordPress blog
-  Version: 1.2.1
+  Version: 1.2.2
   Plugin URI: http://invitebox.com/
  */
 
@@ -92,7 +92,8 @@ if ( !function_exists('wp_ib_opt') ) {
             <p> The secret key can be found in your InviteBox account under "Campaign -> Integration -> Show Advanced Settings". (Screenshot attached)</p>
             <hr />
             <h3>View options:</h3>
-            <label for="wp_ib_show_options_all"><input type="radio" id="wp_ib_show_options_all" <?=$wp_ib_show_options == "all" || !$wp_ib_show_options ? 'checked="checked"' : ''  ?> name="wp_ib_show_options" value="all" /> - Show widget on all pages</label><br />
+            <label for="wp_ib_show_options_all"><input type="radio" id="wp_ib_show_options_all" <?=$wp_ib_show_options == "all" || !$wp_ib_show_options ? 'checked="checked"' : ''  ?> name="wp_ib_show_options" value="all" /> - Show widget on all pages
+            <div style="color: #c0392b;">WARNING: This option is only for use with the widget in popup or badge mode.</div></label><br />
             <label for="wp_ib_show_options_page"><input type="radio" id="wp_ib_show_options_page" <?=$wp_ib_show_options == "one_page"  ? 'checked="checked"' : '' ?> name="wp_ib_show_options" value="one_page" /> - Show widget on one page</label>
             <hr />
             <br /> <input type="submit" id="id-save" value="Save" class="button-primary" /> 
